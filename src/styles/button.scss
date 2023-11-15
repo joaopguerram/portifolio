@@ -1,0 +1,19 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  cursor: pointer;
+
+  &.nav {
+    border-bottom: 3px solid var(--color-background);
+    transition: 0.4s;
+    width: max-content;
+  }
+
+  &.nav:hover {
+    border-bottom: 3px solid var(--color-primary);
+    transition: 0.5s ease-in-out;
+    width: max-content;
+  }
+}

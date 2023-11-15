@@ -1,0 +1,26 @@
+.header {
+  width: 90vw;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.logo {
+  height: 100px;
+}
+
+.list-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin: auto 0;
+}
