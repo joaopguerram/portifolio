@@ -16,7 +16,7 @@ export const Header = () => {
               to="sectionAbout"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-250}
               duration={500}
               className="btn nav text"
             >
@@ -29,7 +29,7 @@ export const Header = () => {
               to="sectionSkills"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={-200}
               duration={500}
               className="btn nav text"
             >

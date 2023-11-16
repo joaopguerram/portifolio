@@ -1,8 +1,10 @@
 .header {
   width: 80vw;
   justify-content: space-between;
-  margin: 50px auto;
-  position: absolute;
+  margin: 0 auto;
+  padding: 50px 0 10px 0;
+  position: fixed;
+  background-color: white;
   top: 0;
   left: 0;
   right: 0;
