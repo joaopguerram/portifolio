@@ -6,3 +6,48 @@
   --color-background: transparent;
   --font-primary: "Inter", sans-serif;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.d-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.div-center {
+  margin: 0 auto;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.marginbt-20 {
+  margin-bottom: 20px;
+}
+
+.margintop-100 {
+  margin-top: 150px;
+}
+
+.margintop-50 {
+  margin-top: 100px;
+}
+
+.margintop-20 {
+  margin-top: 50px;
+}

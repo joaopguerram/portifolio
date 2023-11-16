@@ -1,11 +1,11 @@
 .header {
-  width: 90vw;
-  height: 2rem;
-  display: flex;
+  width: 80vw;
   justify-content: space-between;
-  margin: 30px auto;
-  align-items: center;
-  padding: 50px 0;
+  margin: 50px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {

@@ -4,7 +4,7 @@ import "./style.scss";
 
 export const Header = () => {
   return (
-    <header className="header">
+    <header className="header d-flex align-center">
       <div className="div-logo">
         <img src={logo} alt="Portifolio Joao Pedro" className="logo" />
       </div>
