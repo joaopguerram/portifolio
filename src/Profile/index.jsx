@@ -12,7 +12,7 @@ export const Profile = () => {
       </div>
       <div className="about">
         <p className="text">
-          Olá, me chamo João Pedro. É muito bom tê-lo e espero que goste.
+          Olá, me chamo João Pedro. É muito bom tê-lo aqui e espero que goste.
         </p>
         <p className="text">
           Comecei nessa jornada da tecnologia em 2019 com cursos de lógica de
