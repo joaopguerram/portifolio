@@ -7,7 +7,10 @@ export const Skills = () => {
       <h3 className="title two d-flex justify-center margintop-100 sectionSkills">
         Habilidades
       </h3>
-      <div className="skills d-flex justify-center div-center ">
+      <div
+        className="skills d-flex justify-center div-center "
+        data-aos="fade-up"
+      >
         {data.map((tech) => {
           return (
             <li

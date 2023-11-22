@@ -17,3 +17,9 @@
     width: max-content;
   }
 }
+
+@media (max-width: 1400px) {
+  .btn.nav {
+    border-bottom: 3px solid var(--color-primary);
+  }
+}

@@ -3,14 +3,14 @@ import "./style.scss";
 
 export const Profile = () => {
   return (
-    <main className="main-profile d-flex justify-center align-center div-center margintop-100">
-      <div className="profile">
+    <main className="main-profile d-flex justify-center align-center div-center margintop-50">
+      <div className="profile slide-rigth">
         <img
           src={profile}
           alt="Avatar de cor marrom, com fundo em amarelo, cabelo baixo castanho e olhos castanhos"
         />
       </div>
-      <div className="about">
+      <div className="about slide-left">
         <p className="text">
           Olá, me chamo João Pedro. É muito bom tê-lo aqui e espero que goste.
         </p>

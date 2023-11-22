@@ -1,3 +1,20 @@
 .section-full {
-  margin-top: 300px;
+  margin-top: 18rem;
+  padding: 0 10px;
+}
+
+// @media (max-width: 1400px) {
+//   .section-full {
+//     display: flex;
+//     justify-content: center;
+//     width: 90vw;
+//     margin: 350px auto 0 auto;
+//     text-align: center;
+//   }
+// }
+
+@media (min-width: 1401px) {
+  .section-full {
+    margin-top: 12rem;
+  }
 }

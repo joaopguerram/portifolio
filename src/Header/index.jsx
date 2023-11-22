@@ -17,14 +17,13 @@ export const Header = () => {
               spy={true}
               smooth={true}
               offset={-3000}
-              duration={500}
+              duration={1000}
               className="btn nav text"
             >
               Sobre
             </Link>
           </li>
           <li>
-            {" "}
             <Link
               to="sectionSkills"
               spy={true}
@@ -37,12 +36,11 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            {" "}
             <Link
               to="sectionProjects"
               spy={true}
               smooth={true}
-              offset={-200}
+              offset={-300}
               duration={500}
               className="btn nav text"
             >
@@ -50,7 +48,6 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            {" "}
             <Link
               to="sectionContact"
               spy={true}

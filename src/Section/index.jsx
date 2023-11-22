@@ -7,7 +7,7 @@ export const Section = () => {
         <h2 className="title marginbt-20 text-center">
           DESENVOLVEDOR FULL STACK
         </h2>
-        <p className="text two">
+        <p className="text two text-center">
           Desenvolvo soluções e aplicações que visam a praticidade e facilidade
           do dia-a-dia.
         </p>

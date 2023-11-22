@@ -1,6 +1,6 @@
 import Profile from "../assets/profile.png";
-import wpp from "../assets/whatsapp.png";
-import gmail from "../assets/gmail.png";
+import wpp from "../assets/whatsapp(1).png";
+import gmail from "../assets/gmail(1).png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import "./style.scss";
@@ -15,7 +15,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="imgLinks gmail wpp" src={wpp} alt="" />
+            <img className="imgLinks" src={wpp} alt="" />
           </a>
         </li>
         <li className="d-flex align-center justify-center">
@@ -24,10 +24,10 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="imgLinks gmail" src={gmail} alt="" />
+            <img className="imgLinks" src={gmail} alt="" />
           </a>
         </li>
-        <li>
+        <li className="itemProfile">
           <img src={Profile} alt="" />
         </li>
         <li className="d-flex align-center justify-center">

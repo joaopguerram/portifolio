@@ -11,3 +11,44 @@
   text-align: center;
   gap: 40px;
 }
+
+.slide-left {
+  animation: slide-left 1.5s linear both;
+  z-index: -1;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-rigth {
+  animation: slide-rigth 1.5s linear both;
+  z-index: -1;
+}
+@keyframes slide-rigth {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1400px) {
+  .main-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .about {
+    width: 80vw;
+    text-align: center;
+  }
+}
