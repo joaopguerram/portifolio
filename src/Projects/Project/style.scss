@@ -1,6 +1,6 @@
 .div-card {
   width: 80vw;
-  height: clamp(650px, 5vw, 500px);
+  height: max-content;
   overflow-x: visible;
   overflow-y: hidden;
 }
@@ -9,7 +9,7 @@
   width: clamp(450px, 5vw, 650px);
   border: 1px solid black;
   border-radius: 16px;
-  height: 500px;
+  height: max-content;
   padding: 10px;
   background-color: var(--color-black-ground);
   color: var(--color-white);

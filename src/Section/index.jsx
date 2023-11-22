@@ -8,8 +8,7 @@ export const Section = () => {
           DESENVOLVEDOR FULL STACK
         </h2>
         <p className="text two text-center">
-          Desenvolvo soluções e aplicações que visam a praticidade e facilidade
-          do dia-a-dia.
+          Desenvolvo soluções que visam a praticidade e facilidade do dia-a-dia.
         </p>
       </div>
     </section>
