@@ -1,4 +1,6 @@
 .div-card {
+  display: flex;
+  flex-direction: row;
   width: 80vw;
   height: max-content;
   overflow-x: visible;
@@ -17,7 +19,7 @@
 
 .siteImg {
   width: 90%;
-  height: 150px;
+  height: 200px;
   margin-top: 10%;
 }
 
@@ -36,18 +38,27 @@
   margin: auto auto 50px auto;
 }
 
-// @media (max-width: 1400px) {
-//   .div-card {
-//     display: flex;
-//     flex-wrap: nowrap;
-//     width: 100vw;
-//     align-items: start;
-//     // justify-content: ;
-//     // overflow-x: scroll;
-//   }
+@media (min-width: 1400px) {
+  .div-card {
+    display: flex;
+    flex-direction: column;
+  }
 
-//   .card-project {
-//     width: 100vw;
-//     gap: 20px;
-//   }
-// }
+  .card-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 0;
+
+    width: 80%;
+  }
+
+  .siteImg {
+    height: 100%;
+    width: 400px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 16px;
+  }
+}

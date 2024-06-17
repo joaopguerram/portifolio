@@ -25,7 +25,8 @@ export const data = [
   },
   {
     id: 5,
-    image: "https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png",
+    image:
+      "https://static-00.iconduck.com/assets.00/nodejs-icon-2048x2048-rueyo8fw.png",
     tech: "Nodejs",
   },
   {
