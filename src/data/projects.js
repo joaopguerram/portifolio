@@ -4,7 +4,8 @@ export const projects = [
   {
     id: 1,
     name: "Site DF Guincho",
-    image: "../assets/dfguincho.png",
+    image:
+      "C:UsersUserOneDriveÁrea de Trabalhoprojetosmy-portifolioportifoliosrcassetsdfguincho.png",
     description:
       "Site criado para empresa de guincho e auto socorro usando o React. Foi necessário criar tudo, como figma, paleta de cores, padronização de fontes e tamanhos. Foi um desafio muito divertido e de grande aprendizado e ver tomar forma aquilo que estava no papel foi muito legal.",
     techs: [
