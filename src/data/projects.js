@@ -1,11 +1,11 @@
 import { data } from "./techs";
+import dfguincho from "../assets/dfguincho.png";
 
 export const projects = [
   {
     id: 1,
     name: "Site DF Guincho",
-    image:
-      "C:UsersUserOneDriveÁrea de Trabalhoprojetosmy-portifolioportifoliosrcassetsdfguincho.png",
+    image: { dfguincho },
     description:
       "Site criado para empresa de guincho e auto socorro usando o React. Foi necessário criar tudo, como figma, paleta de cores, padronização de fontes e tamanhos. Foi um desafio muito divertido e de grande aprendizado e ver tomar forma aquilo que estava no papel foi muito legal.",
     techs: [
