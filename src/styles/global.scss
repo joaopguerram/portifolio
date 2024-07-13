@@ -18,8 +18,11 @@
 }
 
 .d-column {
-  display: flex;
   flex-direction: column;
+}
+
+.d-row {
+  flex-direction: row;
 }
 
 .justify-center {

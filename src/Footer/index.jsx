@@ -7,7 +7,7 @@ import "./style.scss";
 
 export const Footer = () => {
   return (
-    <footer className="container-footer d-flex justify-between margintop-100 sectionContact">
+    <footer className="container-footer d-flex justify-between sectionContact margintop-20">
       <ul className="list-footer d-flex justify-between align-center div-center">
         <li className="d-flex align-center justify-center">
           <a

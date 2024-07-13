@@ -14,8 +14,6 @@ export const Header = () => {
           <li>
             <Link
               to="sectionAbout"
-              spy={true}
-              smooth={true}
               offset={-3000}
               duration={1000}
               className="btn nav text"
@@ -26,8 +24,6 @@ export const Header = () => {
           <li>
             <Link
               to="sectionSkills"
-              spy={true}
-              smooth={true}
               offset={-300}
               duration={500}
               className="btn nav text"
@@ -38,8 +34,6 @@ export const Header = () => {
           <li>
             <Link
               to="sectionProjects"
-              spy={true}
-              smooth={true}
               offset={-300}
               duration={500}
               className="btn nav text"
@@ -50,8 +44,6 @@ export const Header = () => {
           <li>
             <Link
               to="sectionContact"
-              spy={true}
-              smooth={true}
               offset={-100}
               duration={500}
               className="btn nav text"

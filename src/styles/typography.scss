@@ -1,6 +1,6 @@
 .title {
   font-family: var(--font-primary);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2rem;
   line-height: 1.4;
 
@@ -11,13 +11,13 @@
 
 .text {
   font-family: var(--font-primary);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
   color: var(--color-black);
 
   &.two {
-    font-weight: 400;
+    font-weight: 300;
     color: var(--color-gray-2);
   }
 

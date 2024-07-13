@@ -3,7 +3,7 @@ import "./style.scss";
 
 export const Profile = () => {
   return (
-    <main className="main-profile d-flex justify-center align-center div-center margintop-50">
+    <main className="main-profile d-flex justify-center align-center div-center">
       <div className="profile slide-rigth">
         <img
           src={profile}
